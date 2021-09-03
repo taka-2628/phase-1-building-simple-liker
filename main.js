@@ -4,6 +4,8 @@ const FULL_HEART = '♥'
 
 // grab modal
 const modal = document.querySelector('#modal')
+modal.className = hidden;
+
 // grab hearts (collection of hearts)
 const hearts = document.querySelectorAll('.like-glyph')
 
